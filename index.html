@@ -222,9 +222,15 @@
                       <img class=" border border-dashed border-gray-300" src="./assets/img2.png" alt="">
                       
                     </div>
+                    <!-- box 6 -->
+                    <div class="lg:hidden border border-gray-300 p-4 rounded-2xl">
+                      <img class=" border border-dashed border-gray-300" src="./assets/img5.png" alt="">
+                      
+                    </div>
+
                     <!-- box 3 -->
-                    <div class="border border-gray-300 p-4 rounded-2xl">
-                      <img class=" border border-dashed border-gray-300" src="./assets/img3.png" alt="">
+                    <div class="hidden lg:flex border border-gray-300 p-4 rounded-2xl">
+                      <img class="border border-dashed border-gray-300" src="./assets/img3.png" alt="">
                       
                     </div>
                     <!-- box 4 -->
@@ -239,11 +245,17 @@
                         
                       </div>
                     </div>
-                    <!-- box 5 -->
-                    <div class="sm:order-1 border border-gray-300 p-4 rounded-2xl">
-                      <img class=" border border-dashed border-gray-300" src="./assets/img5.png" alt="">
+                    <!-- box 3 (duplicate for sm screen)-->
+                    <div class="lg:hidden border border-gray-300 p-4 rounded-2xl">
+                      <img class="border border-dashed border-gray-300" src="./assets/img3.png" alt="">
                       
                     </div>
+                    <!-- box 5 -->
+                    <div class="border border-gray-300 p-4 rounded-2xl">
+                      <img class="border border-dashed border-gray-300" src="./assets/img5.png" alt="">
+                      
+                    </div>
+                    
                     
 
                    </div>
@@ -255,9 +267,9 @@
                 <div class="sm:p-0 lg:p-12">
               
                   <div class="flex justify-center">
-                    <button class="btn btn-sm bg-[#ABEF5F33]"><i class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
+                    <button class="btn btn-sm bg-[#ABEF5F33]"><i class="fa-solid fa-arrow-right"></i>Rinterio News</button>
                   </div>
-                    <h1 class="text-5xl font-bold text-center mt-8 mb-8">Let’s Discuss Next Project</h1>
+                    <h1 class="text-5xl font-bold text-center mt-8 mb-8">Read Our Articles and News</h1>
                     <!-- padding not working properly need support session -->
                     <p class="text-center px-5 mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p> 
                     <!-- cards from here -->
@@ -356,6 +368,46 @@
               </div>
               
             </section>
+            <!-- Let’s Discuss Next Project start -->
+             <section>
+              <div class="px-4 lg:p-48 mx-auto bg-cover bg-center h-screen" 
+              style="background-image: url('./assets/bg.jpg');"">
+                
+                <div class="flex justify-center">
+                  <button class="btn btn-sm bg-[#ABEF5F33]"><i class="fa-solid fa-arrow-right"></i>Let’s Connect</button>
+                </div>
+                  <h1 class="text-5xl font-bold text-center mt-8 mb-8">Let’s Discuss Next Project</h1>
+                  <!-- padding not working properly need support session -->
+                  <p class="text-center px-5 mb-12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p> 
+                  <!-- input form from here -->
+                  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <input
+                  type="text"
+                  placeholder="First Name*"
+                  class="input border-none rounded-3xl input-accent" />
+                    <input
+                  type="text"
+                  placeholder="Last Name*"
+                  class="input border-none rounded-3xl input-accent" />
+                    <input
+                  type="text"
+                  placeholder="Phone Number*"
+                  class="input border-none rounded-3xl input-accent" />
+                    <input
+                  type="text"
+                  placeholder="Email Number*"
+                  class="input border-none rounded-3xl input-accent" />
+                  
+                  <input
+                  type="text"
+                  placeholder="Write your message here"
+                  class="input border-none rounded-3xl input-accent lg:col-span-2 h-32" />
+                  <a class="btn bg-green-500 lg:col-span-2 rounded-3xl">Send Mail <i class="fa-solid fa-arrow-right -rotate-45 bg-gray-800 text-xl text-white rounded-full w-7 h-7 flex items-center justify-center "></i></a>
+                  </div>
+                  
+              </div>
+             </section>
+             
 
 
 
