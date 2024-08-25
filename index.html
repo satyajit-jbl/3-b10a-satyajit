@@ -49,7 +49,38 @@
 <body class="font-manrope mx-auto">
     <header class="bg-orange-50">
         <!-- nav section start here -->
-       <nav class="pr-12 pl-12">
+         <nav>
+          <div class="flex sm:p-0 lg:p-12 mx-auto">
+            <div class="navbar-start">
+              
+              <a class="btn btn-ghost font-bold text-3xl"><i class="fa-solid fa-arrow-right -rotate-45 bg-arrow-green text-xl text-white rounded-full w-7 h-7 flex items-center justify-center"></i> Rinterio</a>
+            </div>
+            <div class="border-2 navbar-center hidden lg:flex items-center ">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                  
+              </ul>
+            </div>
+            <div class="hidden lg:flex gap-10">
+              <i class="fa-solid fa-cart-shopping border-2 bg-white rounded-full w-10 h-10 flex items-center justify-center"></i>
+              <i class="fa-solid fa-magnifying-glass border-2 bg-white rounded-full w-10 h-10 flex items-center justify-center"></i>
+              <a class="btn bg-green-500 rounded-3xl">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-gray-800 text-xl text-white rounded-full w-7 h-7 flex items-center justify-center"></i></a>
+              
+              
+              
+            </div>
+            <!-- <i class="fa-solid fa-bars flex lg:hidden justify-center"></i> -->
+            <div class="flex md:hidden lg:hideen items-center text-2xl ml-44">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+         </nav>
+         <!-- nav bar old -->
+       <nav class="pr-12 pl-12 hidden">
         <div class="navbar">
             <div class="navbar-start">
               
@@ -373,15 +404,15 @@
             <!-- <div class="bg-white h-1"></div> -->
 
  <!-- Reviews section , Meet Our Super client -->
- <section class="mb-8">
+ <section class="mb-1">
   <div class="bg-[#F4F4F4] rounded-xl grid grid-cols-1 lg:grid-cols-2 text-black px-7 md:px-16">
     <!-- Text section -->
     <div class="flex justify-center items-center overflow-hidden">
       <div class="w-5/6">
-        <h1 class="text-4xl font-bold mb-5 mt-10 lg:-rotate-12 text-green-500">Don’t just take our word for it... ...</h1>
+        <h1 class="text-3xl lg:text-4xl font-bold mb-5 mt-2 lg:-rotate-12 text-green-500">Don’t just take our word for it... ...</h1>
         <p class="absolute mb-5 text-xl lg:-rotate-12 italic">Read what <span class="font-bold text-green-500">Our Clients</span> have to say about the services we provide at <span class="font-bold text-green-500">Rinterio</span>  </p> <br><br>
         
-        <a class="btn bg-green-500 rounded-3xl mt-8 lg:ml-96 w-56 text-xl">Show All</a> 
+        <a class="btn bg-green-500 rounded-3xl mt-10 lg:ml-96 w-56 text-xl">Show All</a> 
       </div>
     </div>
 
@@ -390,12 +421,12 @@
     
      
     <!-- top card -->
-     <div class="relative left-1 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
+     <div class="relative left-1 md:left-32 h-80 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
       <div class="absolute -top-5 -left-5 bg-white rounded-full">
         <img class="p-1" src="./assets/client2.png" alt="">
       </div>
       <div>
-        <p class="text-gray-500 mb-5">"I cannot speak highly enough of Rinterio. From start to finish, they were exceptional. Our living room was transformed into a beautiful, functional space that perfectly matches our style. Highly recommend them for anyone looking to elevate their home design!"</p>
+        <p class="text-gray-500 mb-5">"I cannot speak highly enough of Rinterio. From start to finish, they were exceptional. Our living room was transformed perfectly matches our style. Highly recommend them for anyone looking to elevate their home design!"</p>
         <h1 class="font-bold">Client: Sarah M.</h1>
         <small class="font-bold text-gray-500">Project: Living Room Renovation</small>
       </div>
@@ -403,7 +434,7 @@
      </div>
     
      <!-- Bottom Card -->
-     <div class="relative left-1 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
+     <div class="relative left-1 md:left-32 top-10 h-80 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
       <div class="absolute -top-5 -left-5 bg-white rounded-full">
         <img class="p-1" src="./assets/client3.png" alt="">
       </div>
@@ -462,10 +493,7 @@
                   
               </div>
              </section>
-             
-
-
-
+            
     </main>
 
     <footer class="bg-black">
@@ -474,7 +502,7 @@
           <a class="btn btn-ghost font-bold text-3xl text-white"><i class="fa-solid fa-arrow-right -rotate-45 bg-arrow-green text-xl text-white rounded-full w-7 h-7 flex items-center justify-center"></i> Rinterio</a>
         </div>
         <p class="text-center text-txt-color mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-        <div class="lg:flex gap-10 justify-center text-white py-10">
+        <div class="lg:flex gap-10 ml-40 lg:justify-center text-white py-10">
          
             <a href="">Home</a><br>
             <a href="">Services</a><br>
